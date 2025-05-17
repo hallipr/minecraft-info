@@ -1,0 +1,3 @@
+[submodule "external/minecraft-data-csharp"]
+	path = external/minecraft-data-csharp
+	url = https://github.com/codemonkey85/minecraft-data-csharp

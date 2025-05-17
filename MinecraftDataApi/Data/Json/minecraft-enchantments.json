@@ -1,0 +1,52 @@
+{
+  "Protection": {
+    "HasLibrarianTrade": false,
+    "Level": null,
+    "EmeraldCost": null
+  },
+  "Fire Protection": {
+    "HasLibrarianTrade": true,
+    "Level": 4,
+    "EmeraldCost": 55
+  },
+  "Blast Protection": {
+    "HasLibrarianTrade": false,
+    "Level": null,
+    "EmeraldCost": null
+  },
+  "Thorns": {
+    "HasLibrarianTrade": false,
+    "Level": null,
+    "EmeraldCost": null
+  },
+  "Aqua Affinity": {
+    "HasLibrarianTrade": true,
+    "Level": 1,
+    "EmeraldCost": 10
+  },
+  "Bane of Arthropods": {
+    "HasLibrarianTrade": true,
+    "Level": 4,
+    "EmeraldCost": 36
+  },
+  "Efficiency": {
+    "HasLibrarianTrade": true,
+    "Level": 3,
+    "EmeraldCost": 19
+  },
+  "Feather Falling": {
+    "HasLibrarianTrade": false,
+    "Level": null,
+    "EmeraldCost": null
+  },
+  "Flame": {
+    "HasLibrarianTrade": true,
+    "Level": 1,
+    "EmeraldCost": 17
+  },
+  "Fortune": {
+    "HasLibrarianTrade": true,
+    "Level": 3,
+    "EmeraldCost": 21
+  }
+}

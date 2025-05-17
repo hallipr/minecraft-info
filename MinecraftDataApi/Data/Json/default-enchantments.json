@@ -1,0 +1,242 @@
+[
+  {
+    "Name": "Protection",
+    "MaxLevel": 4,
+    "Description": "Reduces most damage types",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Fire Protection",
+    "MaxLevel": 4,
+    "Description": "Reduces fire damage",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Blast Protection",
+    "MaxLevel": 4,
+    "Description": "Reduces explosion damage",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Projectile Protection",
+    "MaxLevel": 4,
+    "Description": "Reduces projectile damage",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Feather Falling",
+    "MaxLevel": 4,
+    "Description": "Reduces fall damage",
+    "ApplicableItems": ["Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Thorns",
+    "MaxLevel": 3,
+    "Description": "Damages attackers",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Respiration",
+    "MaxLevel": 3,
+    "Description": "Extends underwater breathing time",
+    "ApplicableItems": ["Helmet"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Depth Strider",
+    "MaxLevel": 3,
+    "Description": "Increases underwater movement speed",
+    "ApplicableItems": ["Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Aqua Affinity",
+    "MaxLevel": 1,
+    "Description": "Increases underwater mining rate",
+    "ApplicableItems": ["Helmet"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Sharpness",
+    "MaxLevel": 5,
+    "Description": "Increases attack damage",
+    "ApplicableItems": ["Sword", "Axe"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Smite",
+    "MaxLevel": 5,
+    "Description": "Increases damage against undead mobs",
+    "ApplicableItems": ["Sword", "Axe"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Bane of Arthropods",
+    "MaxLevel": 5,
+    "Description": "Increases damage against arthropods",
+    "ApplicableItems": ["Sword", "Axe"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Knockback",
+    "MaxLevel": 2,
+    "Description": "Increases knockback",
+    "ApplicableItems": ["Sword"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Fire Aspect",
+    "MaxLevel": 2,
+    "Description": "Sets target on fire",
+    "ApplicableItems": ["Sword"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Looting",
+    "MaxLevel": 3,
+    "Description": "Increases mob drops",
+    "ApplicableItems": ["Sword"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Efficiency",
+    "MaxLevel": 5,
+    "Description": "Increases mining speed",
+    "ApplicableItems": ["Pickaxe", "Axe", "Shovel", "Hoe"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Silk Touch",
+    "MaxLevel": 1,
+    "Description": "Mined blocks drop themselves",
+    "ApplicableItems": ["Pickaxe", "Axe", "Shovel", "Hoe"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Fortune",
+    "MaxLevel": 3,
+    "Description": "Increases block drops",
+    "ApplicableItems": ["Pickaxe", "Axe", "Shovel", "Hoe"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Power",
+    "MaxLevel": 5,
+    "Description": "Increases arrow damage",
+    "ApplicableItems": ["Bow"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Punch",
+    "MaxLevel": 2,
+    "Description": "Increases arrow knockback",
+    "ApplicableItems": ["Bow"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Flame",
+    "MaxLevel": 1,
+    "Description": "Arrows set targets on fire",
+    "ApplicableItems": ["Bow"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Infinity",
+    "MaxLevel": 1,
+    "Description": "Bows don't consume arrows",
+    "ApplicableItems": ["Bow"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Luck of the Sea",
+    "MaxLevel": 3,
+    "Description": "Increases fishing treasure chances",
+    "ApplicableItems": ["Fishing Rod"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Lure",
+    "MaxLevel": 3,
+    "Description": "Decreases fishing time",
+    "ApplicableItems": ["Fishing Rod"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Unbreaking",
+    "MaxLevel": 3,
+    "Description": "Increases item durability",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Pickaxe", "Axe", "Shovel", "Hoe", "Sword", "Bow", "Fishing Rod", "Shears", "Flint and Steel", "Carrot on a Stick", "Elytra", "Shield", "Trident", "Crossbow"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Mending",
+    "MaxLevel": 1,
+    "Description": "Repairs items with XP",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Pickaxe", "Axe", "Shovel", "Hoe", "Sword", "Bow", "Fishing Rod", "Shears", "Flint and Steel", "Carrot on a Stick", "Elytra", "Shield", "Trident", "Crossbow"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Curse of Binding",
+    "MaxLevel": 1,
+    "Description": "Items cannot be removed from armor slots",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Elytra", "Carved Pumpkin", "Head"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Curse of Vanishing",
+    "MaxLevel": 1,
+    "Description": "Item disappears on death",
+    "ApplicableItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Pickaxe", "Axe", "Shovel", "Hoe", "Sword", "Bow", "Fishing Rod", "Shears", "Flint and Steel", "Carrot on a Stick", "Elytra", "Shield", "Trident", "Crossbow"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": true
+  },
+  {
+    "Name": "Soul Speed",
+    "MaxLevel": 3,
+    "Description": "Increases walking speed on soul sand/soil",
+    "ApplicableItems": ["Boots"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": false
+  },
+  {
+    "Name": "Swift Sneak",
+    "MaxLevel": 3,
+    "Description": "Increases sneaking speed",
+    "ApplicableItems": ["Leggings"],
+    "HasLibrarianTrade": false,
+    "LibrariansCanTrade": false
+  }
+]
