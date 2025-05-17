@@ -4,8 +4,9 @@ A full-stack application for tracking Minecraft enchantments and librarian trade
 
 ## Project Structure
 
-- **MinecraftDataApi/** - ASP.NET Core REST API backend with JSON file storage
-- **minecraft-tracker-ui/** - React TypeScript frontend
+- **src/api/** - ASP.NET Core REST API backend with JSON file storage
+- **src/website/** - React TypeScript frontend
+- **external/minecraft-data-net/** - .NET wrapper library for minecraft-data
 
 ## Backend Features
 
@@ -26,9 +27,9 @@ A full-stack application for tracking Minecraft enchantments and librarian trade
 
 ### Backend API
 
-1. Navigate to the MinecraftDataApi folder:
+1. Navigate to the API folder:
    ```
-   cd MinecraftDataApi
+   cd src/api
    ```
 2. Run the API:
    ```
@@ -38,9 +39,9 @@ A full-stack application for tracking Minecraft enchantments and librarian trade
 
 ### Frontend UI
 
-1. Navigate to the minecraft-tracker-ui folder:
+1. Navigate to the website folder:
    ```
-   cd minecraft-tracker-ui
+   cd src/website
    ```
 2. Run the React development server:
    ```
@@ -50,5 +51,24 @@ A full-stack application for tracking Minecraft enchantments and librarian trade
 
 ## Data Storage
 
-The application stores data in JSON files located in `/MinecraftDataApi/Data/Json/`.
+The application stores data in JSON files located in `src/api/Data/Json/`.
 These files can be versioned with Git for tracking changes over time.
+
+## Minecraft Data Library
+
+The project uses a .NET wrapper for the minecraft-data repository, located at `external/minecraft-data-net/`. 
+This library provides strongly-typed C# objects for game items, blocks, entities, enchantments, and more.
+
+### Library Usage Example
+
+```csharp
+// Initialize with specific edition and version
+var minecraft = new MinecraftData("bedrock", "1.19.1");
+
+// Asynchronously load enchantments data
+var enchantments = await minecraft.LoadEnchantmentsAsync();
+
+// Access by name (case-insensitive)
+Enchantment featherFalling = enchantments["feather_falling"];
+Console.WriteLine($"Feather Falling max level: {featherFalling.MaxLevel}");
+```
